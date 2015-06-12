@@ -19,7 +19,8 @@ public class UserServiceImpl implements UserService {
 	private UserRepository userRepository;
 	
 	public User findUserByName(String name) {
-		User user = userRepository.findByName(name);
+//		User user = userRepository.findByName(name);
+		User user = new User();
 		if(user==null)
 		{
 			log.info("根据名字没有查询到该用户信息");
@@ -30,7 +31,6 @@ public class UserServiceImpl implements UserService {
 	public User insertUser() {
 		
 		User user = new User();
-		user.setName("样子");
 		userRepository.save(user);
 		return user;
 	}

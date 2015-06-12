@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="${style}common.css" type="text/css"></link>
-<link rel="stylesheet" href="${plugin}bootstrap/css/bootstrap.css" type="text/css"></link>
+<link rel="stylesheet" href="${style}/common.css" type="text/css"></link>
+<link rel="stylesheet" href="${plugin}/bootstrap/css/bootstrap.css" type="text/css"></link>
 
-<script type="text/javascript" src="${script}jquery.js"></script>
+<script type="text/javascript" src="${script}/jquery.js"></script>
 <title>error</title>
 </head>
 <body>
